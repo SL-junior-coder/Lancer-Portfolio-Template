@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.my-container {
+  width: 1170px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* nav css class start  */
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  position: absolute;
+  width: 100%;
+}
+
+/* background img css class start  */
+
+.back-img-main-class {
+  background-image: url(img/second-website-background-img.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  top: 54px;
+  margin-bottom: 150px;
+}
+.back-img-main-class:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.3;
+}
+
+.intro-tag {
+  width: 382px;
+  text-transform: uppercase;
+  padding: 61px 0px;
+}
+/* .intro-tag::before{
+    background-color: #f5f5f5;
+    content: "";
+    top: 17px;
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+    opacity: 0.2;
+    height: 161px;
+    width: 141px;
+    z-index: 1;
+    border-radius: 69% 37% 50% 50% / 70% 68% 32% 30%;   
+} */
+
+.intro-tag h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* backgroun img css clas over  */
+
+    /* about me css class over  */
+    .about-main-class {
+        margin-bottom: 130px;
+    }
+    .side-img-class {
+      width: 267px;
+    }
+    .side-img-class img {
+      border-radius: 69% 37% 50% 50% / 70% 68% 32% 30%;
+    }
+    .side-img-class::before {
+      opacity: 0.7;
+      background-color: #f5f5f5;
+      content: "";
+      width: 260px;
+      height: 462px;
+      position: absolute;
+      border-radius: 69% 37% 50% 50% / 70% 68% 32% 30%;
+      left: 181px;
+      z-index: -1;
+    }
+    .main-part-class {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    /* about me second part css class start  */
+
+    .about-heading {
+      text-align: center;
+      margin-bottom: 90px;
+    }
+    .about-heading span {
+      padding: 0px 12px;
+      color: #3196f3;
+    }
+    .about-heading h2 {
+      font-family: "Poppins", serif;
+      font-weight: 200;
+      font-style: normal;
+      text-transform: uppercase;
+    }
+    .about-heading::after {
+      content: "";
+      background-color: black;
+      width: 64px;
+      height: 2px;
+      position: absolute;
+      right: 340px;
+      top: 64px;
+    }
+    .about-me-parts {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .photo-main-class {
+      display: flex;
+    }
+    .music-main-class {
+      display: flex;
+    }
+    .magic-main-class {
+      display: flex;
+    }
+    .painting-main-class {
+      display: flex;
+    }
+
+    .text-par {
+      max-width: 230px;
+    }
+    .svg-part{
+        margin-right: 20px;
+    }
+
+    /* about me second part css over  */
+
+    /* about me css class over  */
+
+
+/* my services css class start  */
+
+.three-card-main-class{
+  display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+}
+.card-p{
+    max-width: 626px;
+    text-align: center;
+}
+.card h2{
+    text-align: center;
+}
+.card{
+   padding: 25px 25px;
+} 
+
+.card-service-heading span {
+    padding: 0px 12px;
+    color: #3196f3;
+  }
+  .card-service-heading h2 {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  .card-service-heading{
+    text-align: center;
+    margin-bottom: 70px;
+    position: relative;
+  }
+  .card-service-heading::before{
+    content: "";
+    background-color: black;
+    width: 64px;
+    height: 2px;
+    position: absolute;
+    right: 551px;
+    top: 64px;
+  }
+  .boot.col-sm-12.col-md-6.col-lg-4{
+    width: 30%;
+    height: auto;
+  }
